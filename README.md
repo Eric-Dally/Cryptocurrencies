@@ -30,7 +30,7 @@ Cleaned DataFrame: In order to run unsupervised algorithms, I had to remove unec
 
 <img width="796" alt="Screen Shot 2021-08-27 at 8 17 39 PM" src="https://user-images.githubusercontent.com/82424250/131201683-301fa92f-91d6-4c92-8569-25f3c6cb0ca1.png">
 
-5.) Visualized the results by graphing 2D and 3D plots using the hvplot pandas:
+5.) Visualized the results by graphing 2D and 3D plots using the hvplot import in pandas:
 
 <img width="679" alt="Screen Shot 2021-08-27 at 6 47 31 PM" src="https://user-images.githubusercontent.com/82424250/131201809-768a0923-969a-476b-82af-e8db8508b4ad.png">
 
