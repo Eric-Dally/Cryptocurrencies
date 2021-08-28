@@ -20,15 +20,18 @@ Cleaned DataFrame: In order to run unsupervised algorithms, I had to remove unec
 
 <img width="931" alt="Screen Shot 2021-08-27 at 8 12 21 PM" src="https://user-images.githubusercontent.com/82424250/131201516-e5b767db-10ac-477b-840d-1cb5ddae414b.png">
 
+
 3.) Created Elbow curve to determine the statistically appropriate number of clusters to group. 
 
 <img width="836" alt="Screen Shot 2021-08-27 at 8 15 25 PM" src="https://user-images.githubusercontent.com/82424250/131201587-b85e01a3-7774-4f87-84ff-5b4ef21ab06f.png">
 
-4.) Ran K-Means Algorithm for four clusters. Then, I added the clusters to a Dataframe.
+
+4.) Ran K-Means Algorithm for four clusters. Then, I added the clusters to a Dataframe. Side note: In K-means algorithm, each class was defined by creating a centroid for each group. The centroids are the center of the cluster, which captures the points closest to them and adds them to the cluster. 
 
 <img width="630" alt="Screen Shot 2021-08-27 at 8 17 25 PM" src="https://user-images.githubusercontent.com/82424250/131201681-0e8da5fc-8901-4b9b-9cfa-8787e99a8213.png">
 
 <img width="796" alt="Screen Shot 2021-08-27 at 8 17 39 PM" src="https://user-images.githubusercontent.com/82424250/131201683-301fa92f-91d6-4c92-8569-25f3c6cb0ca1.png">
+
 
 5.) Visualized the results by graphing 2D and 3D plots using the hvplot import in pandas:
 
@@ -36,14 +39,15 @@ Cleaned DataFrame: In order to run unsupervised algorithms, I had to remove unec
 
 <img width="777" alt="Screen Shot 2021-08-27 at 8 26 22 PM" src="https://user-images.githubusercontent.com/82424250/131201897-7b853db5-a1a0-43f2-b0bb-19c9568ed7e2.png">
 
-* BitTorrent was the only coin classified into Class 1. It had the highest number of coins mined reaching almost 5 times more than the other coins. 
+
+* BitTorrent was the only coin classified into Class 1. It had the highest number of coins mined and one of the highest coin supply.
 
 <img width="556" alt="Screen Shot 2021-08-27 at 8 31 50 PM" src="https://user-images.githubusercontent.com/82424250/131202078-c5510d78-2d8e-44a8-b6c8-aeec7962eb1f.png">
 
 <img width="669" alt="Screen Shot 2021-08-27 at 8 36 57 PM" src="https://user-images.githubusercontent.com/82424250/131202258-4baeefdb-a82d-47e9-86b7-436cae980893.png">
 
 
-* TurtleCoin seperated itself with the largest coin supply:
+* TurtleCoin tied BitTorrent with a large coin supply while having average number of coins mined. 
 
 <img width="667" alt="Screen Shot 2021-08-27 at 8 35 31 PM" src="https://user-images.githubusercontent.com/82424250/131202242-6a1bc119-ed60-41d9-beff-d0c4ee0c6980.png">
 
@@ -51,6 +55,6 @@ Cleaned DataFrame: In order to run unsupervised algorithms, I had to remove unec
 
 ## Summary
 
-* 533 cryptocurrencies were randomly classified using the K-Means algorithm. 
-* In K-means clustering, each group is defined by creating a centroid for each group. The centroids are the center of the cluster, which captures the points closest to them and adds them to the cluster.
-* 
+533 cryptocurrencies were randomly classified using the K-Means algorithm. Then all cryptocurrencies were grouped into 4 clusters and graphs were used to visualize each cluster as well as illustrate the relationship between the Total Coin Supply and the Total Coins Mined. Between these two factors, each coin shared a similar relationship. However, there were two outliers: the BitTorrent coin and the TurtleCoins coin. BitTorrent had the highest number of coins mined reaching reaching 5 times more than the other coins as well as a significantly large coin supply. TurtleCoin had a large coin supply and average number of coins mined. This information is important to the crypto world because it gives a miner an idea on what coins are worth mining. For example, with mining difficuty aside, one would not want to mine BitTorrent and TurtleCoins because there are already a high number of those coins on the market. Meaning, the return on selling those coins will be much less than coins that have a low supply and or a small number of coins mined. 
+
+ It is worth mentioning that further research needs to go into evalutating the risk reward of mining. Different coins are harder to mine than others which may be a major factor when deciding which coins to mine. Building on this, the price of each coin fluctuates with the market. On a day by day basis higher priced coins will have more incentive to mine. If I was to continue this project, I would explor a way to factor in these variables into my K-Means model. 
