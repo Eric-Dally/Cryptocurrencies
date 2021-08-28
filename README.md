@@ -6,7 +6,7 @@ The purpose of this project was to explore cryptocurrencies being traded in the 
 
 ## Analysis
 
-1.) Preprocessing the data:
+1) Preprocessing the data:
 
 Initial Dataframe: 
 
@@ -16,7 +16,7 @@ Cleaned DataFrame: In order to run unsupervised algorithms, I had to remove unec
 
 <img width="1008" alt="Screen Shot 2021-08-27 at 8 07 44 PM" src="https://user-images.githubusercontent.com/82424250/131201392-72e45d57-f460-4e95-af6d-f4b00ed2ef23.png">
 
-2.) Used PCA to reduce the data's dimensions to three principal components:
+2) Used PCA to reduce the data's dimensions to three principal components:
 
 <img width="931" alt="Screen Shot 2021-08-27 at 8 12 21 PM" src="https://user-images.githubusercontent.com/82424250/131201516-e5b767db-10ac-477b-840d-1cb5ddae414b.png">
 
