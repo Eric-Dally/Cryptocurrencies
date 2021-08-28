@@ -36,9 +36,17 @@ Cleaned DataFrame: In order to run unsupervised algorithms, I had to remove unec
 
 <img width="777" alt="Screen Shot 2021-08-27 at 8 26 22 PM" src="https://user-images.githubusercontent.com/82424250/131201897-7b853db5-a1a0-43f2-b0bb-19c9568ed7e2.png">
 
-* Note: BitTorrent was the only coin classified into Class 1
+* BitTorrent was the only coin classified into Class 1. It had the highest number of coins mined reaching almost 5 times more than the other coins. 
 
 <img width="556" alt="Screen Shot 2021-08-27 at 8 31 50 PM" src="https://user-images.githubusercontent.com/82424250/131202078-c5510d78-2d8e-44a8-b6c8-aeec7962eb1f.png">
+
+<img width="669" alt="Screen Shot 2021-08-27 at 8 36 57 PM" src="https://user-images.githubusercontent.com/82424250/131202258-4baeefdb-a82d-47e9-86b7-436cae980893.png">
+
+
+* TurtleCoin seperated itself with the largest coin supply:
+
+<img width="667" alt="Screen Shot 2021-08-27 at 8 35 31 PM" src="https://user-images.githubusercontent.com/82424250/131202242-6a1bc119-ed60-41d9-beff-d0c4ee0c6980.png">
+
 
 
 ## Summary
