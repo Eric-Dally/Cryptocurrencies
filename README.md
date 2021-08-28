@@ -34,7 +34,8 @@ Cleaned DataFrame: In order to run unsupervised algorithms, I had to remove unec
 
 <img width="679" alt="Screen Shot 2021-08-27 at 6 47 31 PM" src="https://user-images.githubusercontent.com/82424250/131201809-768a0923-969a-476b-82af-e8db8508b4ad.png">
 
-<img width="780" alt="Screen Shot 2021-08-27 at 6 53 22 PM" src="https://user-images.githubusercontent.com/82424250/131201813-77aea0dd-0f4b-4946-b002-c0382db05eba.png">
+<img width="777" alt="Screen Shot 2021-08-27 at 8 26 22 PM" src="https://user-images.githubusercontent.com/82424250/131201897-7b853db5-a1a0-43f2-b0bb-19c9568ed7e2.png">
+
 
 
 ## Summary
