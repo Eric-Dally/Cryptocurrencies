@@ -36,6 +36,13 @@ Cleaned DataFrame: In order to run unsupervised algorithms, I had to remove unec
 
 <img width="777" alt="Screen Shot 2021-08-27 at 8 26 22 PM" src="https://user-images.githubusercontent.com/82424250/131201897-7b853db5-a1a0-43f2-b0bb-19c9568ed7e2.png">
 
+* Note: BitTorrent was the only coin classified into Class 1
+
+<img width="556" alt="Screen Shot 2021-08-27 at 8 31 50 PM" src="https://user-images.githubusercontent.com/82424250/131202078-c5510d78-2d8e-44a8-b6c8-aeec7962eb1f.png">
 
 
 ## Summary
+
+* 533 cryptocurrencies were randomly classified using the K-Means algorithm. 
+* In K-means clustering, each group is defined by creating a centroid for each group. The centroids are the center of the cluster, which captures the points closest to them and adds them to the cluster.
+* 
