@@ -2,7 +2,7 @@
 
 ## Overview
 
-The purpose of this project was to explore cryptocurrencies being traded in the market and how they could be grouped to create a classification system for a new investment. In order to do this, I cleaned a crypto currency csv file using python pandas, reduced the dimensions of the data using PCA, grouped the data by using an unsupervized kmeans machine learning algorithm, and created graphs to visualize the results. 
+The purpose of this project was to explore how cryptocurrencies could be grouped to create a classification system for a new investments. In order to do this, I cleaned a crypto currency csv file using python pandas, reduced the dimensions of the data using PCA, grouped the data by using an unsupervized kmeans machine learning algorithm, and created graphs to visualize the results. 
 
 ## Analysis
 
